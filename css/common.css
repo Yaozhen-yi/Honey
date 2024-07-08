@@ -1,0 +1,143 @@
+/*放各個頁面相同的部分:頭 尾部*/
+/*版心*/
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper{
+    width: 1240px;
+    margin: 0 auto;
+}
+.container{
+   /*  position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; */
+    position: relative;
+    margin: 80px auto;
+    height: 175px;
+    background-color: rgba(240, 240, 240, 0.8);
+}
+.container .logo{
+    float: left;
+    width: 195px;
+    height: 175px;
+}
+
+.container .logo a{
+    display: block;
+    height: 175px;
+    
+    background-image: url(../images/吳家養蜂場.png);
+    background-size: contain;
+   
+    
+}
+
+.container .logo span{
+    position: absolute;
+    left: 300px;
+    line-height: 175px;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.nav{
+    float: right;
+    margin-right: 40px;
+    height: 175px;
+    font-size: 20px;
+}
+.nav li{
+    float: left;
+    margin-right: 60px;
+    line-height: 175px;
+}
+.nav li a{
+    padding-bottom: 7px;
+}
+.nav li a :hover{
+    color: #27ba9b;
+    border-bottom: 1px solid #27ba9b;
+}
+
+/*footer*/
+.footer{
+    height: 250px;
+    margin-top: 20px;
+    background-color: rgba(240, 240, 240, 0.8);
+}
+
+.footer .wrapper{
+    width: 1393px;
+}
+
+.footer .wrapper .right{
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    height: 250px;
+}
+
+.footer .wrapper .right li{
+    position: relative;
+    float: left;
+    margin-left: 100px;
+    line-height: 250px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer .wrapper .right li:last-child{
+    margin-right: 0;
+}
+
+.footer .wrapper .right .phone::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 58px;
+    height: 58px;
+    background-image: url(../images/phone.png);
+}
+
+.footer .wrapper .right .email::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 58px;
+    height: 58px;
+    background-image: url(../images/mail.png);
+}
+
+
+.footer .wrapper .right .fb::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 58px;
+    height: 58px;
+    background-image: url(../images/fb.png);
+    
+}
+
+.footer .wrapper .right .address::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 58px;
+    height: 58px;
+    background-image: url(../images/address.png);
+
+}
+.footer .right iframe{
+    position: absolute;
+    margin-left: 20px;
+}
+

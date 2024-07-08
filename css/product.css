@@ -1,0 +1,106 @@
+.commodity {
+    height: 3200px;
+    width: 1240px;
+}
+.commodity .hd{
+    height: 115px;
+    line-height: 115px;
+    position: relative;
+}
+
+.commodity .hd h2{
+    float: left;
+    font-size: 30px;
+    font-weight: 700;
+    height: 115px;
+}
+
+.commodity .bd .left{
+    position: absolute;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.commodity .bd .nav_list{
+    /*position: fixed;*/
+    top: 60%;
+    width: 100px;
+    left: 120px;
+    
+}
+
+.commodity .bd .nav_list li{
+    width: 100px;
+    height: 70px;
+    position: relative;
+    
+}
+
+.commodity .bd .nav_list li span{
+    position: absolute;
+    left: 35px;
+    top: 0;
+    width: 100px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    background-color: white;
+    transition: all 0.5s;
+}
+
+.commodity .bd .nav_list li:hover span {
+    background-color: #ccc;
+    left: 70px;
+}
+
+.commodity .bd .right{
+    position: absolute;
+    float: left;
+    width: 890px;
+    margin-left: 250px;
+}
+
+.commodity .bd .right ul li{
+    position: relative;
+    float: left;
+    width: 425px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.commodity .bd .right .pure_honey,
+.commodity .bd .right .gift_box,
+.commodity .bd .right .other{
+    position: absolute;
+    float: left;
+    width: 890px;
+}
+
+.commodity .bd .right h3{
+    text-align: center;
+}
+
+.commodity .bd .right .pure_honey h4,
+.commodity .bd .right .gift_box h4,
+.commodity .bd .right .other h4
+{
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+
+.commodity .bd .right .gift_box{
+    top: 650px;
+}
+
+.commodity .bd .right .other{
+    top: 1100px;
+}
+.commodity .bd .right .gift_box h4{
+    margin-top: 50px;
+}
+
+.commodity .bd .right .other h4{
+    margin-top: 200px;
+}
